@@ -4604,11 +4604,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\InfoTrack\\InfoTrackSeo\\InfoTrackSeo.API\\InfoTrackSeo.API.csproj",
+      "projectUniqueName": "C:\\Users\\wayne\\source\\repos\\IT\\infotrackscraper\\InfoTrackSeo\\InfoTrackSeo.API\\InfoTrackSeo.API.csproj",
       "projectName": "InfoTrackSeo.API",
-      "projectPath": "C:\\InfoTrack\\InfoTrackSeo\\InfoTrackSeo.API\\InfoTrackSeo.API.csproj",
+      "projectPath": "C:\\Users\\wayne\\source\\repos\\IT\\infotrackscraper\\InfoTrackSeo\\InfoTrackSeo.API\\InfoTrackSeo.API.csproj",
       "packagesPath": "C:\\Users\\wayne\\.nuget\\packages\\",
-      "outputPath": "C:\\InfoTrack\\InfoTrackSeo\\InfoTrackSeo.API\\obj\\",
+      "outputPath": "C:\\Users\\wayne\\source\\repos\\IT\\infotrackscraper\\InfoTrackSeo\\InfoTrackSeo.API\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -4630,17 +4630,17 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "C:\\InfoTrack\\InfoTrackSeo\\InfoTrackSeo.Common\\InfoTrackSeo.Common.csproj": {
-              "projectPath": "C:\\InfoTrack\\InfoTrackSeo\\InfoTrackSeo.Common\\InfoTrackSeo.Common.csproj"
+            "C:\\Users\\wayne\\source\\repos\\IT\\infotrackscraper\\InfoTrackSeo\\InfoTrackSeo.Common\\InfoTrackSeo.Common.csproj": {
+              "projectPath": "C:\\Users\\wayne\\source\\repos\\IT\\infotrackscraper\\InfoTrackSeo\\InfoTrackSeo.Common\\InfoTrackSeo.Common.csproj"
             },
-            "C:\\InfoTrack\\InfoTrackSeo\\InfoTrackSeo.Core\\InfoTrackSeo.Core.csproj": {
-              "projectPath": "C:\\InfoTrack\\InfoTrackSeo\\InfoTrackSeo.Core\\InfoTrackSeo.Core.csproj"
+            "C:\\Users\\wayne\\source\\repos\\IT\\infotrackscraper\\InfoTrackSeo\\InfoTrackSeo.Core\\InfoTrackSeo.Core.csproj": {
+              "projectPath": "C:\\Users\\wayne\\source\\repos\\IT\\infotrackscraper\\InfoTrackSeo\\InfoTrackSeo.Core\\InfoTrackSeo.Core.csproj"
             },
-            "C:\\InfoTrack\\InfoTrackSeo\\InfoTrackSeo.Data\\InfoTrackSeo.Data.csproj": {
-              "projectPath": "C:\\InfoTrack\\InfoTrackSeo\\InfoTrackSeo.Data\\InfoTrackSeo.Data.csproj"
+            "C:\\Users\\wayne\\source\\repos\\IT\\infotrackscraper\\InfoTrackSeo\\InfoTrackSeo.Data\\InfoTrackSeo.Data.csproj": {
+              "projectPath": "C:\\Users\\wayne\\source\\repos\\IT\\infotrackscraper\\InfoTrackSeo\\InfoTrackSeo.Data\\InfoTrackSeo.Data.csproj"
             },
-            "C:\\InfoTrack\\InfoTrackSeo\\InfoTrackSeo.Repositories\\InfoTrackSeo.Repositories.csproj": {
-              "projectPath": "C:\\InfoTrack\\InfoTrackSeo\\InfoTrackSeo.Repositories\\InfoTrackSeo.Repositories.csproj"
+            "C:\\Users\\wayne\\source\\repos\\IT\\infotrackscraper\\InfoTrackSeo\\InfoTrackSeo.Repositories\\InfoTrackSeo.Repositories.csproj": {
+              "projectPath": "C:\\Users\\wayne\\source\\repos\\IT\\infotrackscraper\\InfoTrackSeo\\InfoTrackSeo.Repositories\\InfoTrackSeo.Repositories.csproj"
             }
           }
         }

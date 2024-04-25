@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\InfoTrack\\InfoTrackSeo\\InfoTrackSeo.Common\\InfoTrackSeo.Common.csproj": {}
+    "C:\\Users\\wayne\\source\\repos\\IT\\infotrackscraper\\InfoTrackSeo\\InfoTrackSeo.Common\\InfoTrackSeo.Common.csproj": {}
   },
   "projects": {
-    "C:\\InfoTrack\\InfoTrackSeo\\InfoTrackSeo.Common\\InfoTrackSeo.Common.csproj": {
+    "C:\\Users\\wayne\\source\\repos\\IT\\infotrackscraper\\InfoTrackSeo\\InfoTrackSeo.Common\\InfoTrackSeo.Common.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\InfoTrack\\InfoTrackSeo\\InfoTrackSeo.Common\\InfoTrackSeo.Common.csproj",
+        "projectUniqueName": "C:\\Users\\wayne\\source\\repos\\IT\\infotrackscraper\\InfoTrackSeo\\InfoTrackSeo.Common\\InfoTrackSeo.Common.csproj",
         "projectName": "InfoTrackSeo.Common",
-        "projectPath": "C:\\InfoTrack\\InfoTrackSeo\\InfoTrackSeo.Common\\InfoTrackSeo.Common.csproj",
+        "projectPath": "C:\\Users\\wayne\\source\\repos\\IT\\infotrackscraper\\InfoTrackSeo\\InfoTrackSeo.Common\\InfoTrackSeo.Common.csproj",
         "packagesPath": "C:\\Users\\wayne\\.nuget\\packages\\",
-        "outputPath": "C:\\InfoTrack\\InfoTrackSeo\\InfoTrackSeo.Common\\obj\\",
+        "outputPath": "C:\\Users\\wayne\\source\\repos\\IT\\infotrackscraper\\InfoTrackSeo\\InfoTrackSeo.Common\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

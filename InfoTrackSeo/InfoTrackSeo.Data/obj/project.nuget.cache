@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "sVRj0jdEeP3ez5Y4k5WodQShTXOJ5mXOcKhPY5pr0Uguntr2nJo+YR5/KZ/I7/KzHZRNDHO0fpyMNkKz9zh2Gw==",
+  "dgSpecHash": "slH9to0H5JABDYnLzKEQVecSaun7/sDKG928x9I1Bo19HW7wd0OGJSa5FErQWDR+XerLOWh4ft1fowvrOmrwtg==",
   "success": true,
-  "projectFilePath": "C:\\InfoTrack\\InfoTrackSeo\\InfoTrackSeo.Data\\InfoTrackSeo.Data.csproj",
+  "projectFilePath": "C:\\Users\\wayne\\source\\repos\\IT\\infotrackscraper\\InfoTrackSeo\\InfoTrackSeo.Data\\InfoTrackSeo.Data.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\wayne\\.nuget\\packages\\azure.core\\1.35.0\\azure.core.1.35.0.nupkg.sha512",
     "C:\\Users\\wayne\\.nuget\\packages\\azure.identity\\1.10.3\\azure.identity.1.10.3.nupkg.sha512",

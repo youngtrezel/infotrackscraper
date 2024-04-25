@@ -8,6 +8,6 @@ build_property.PlatformNeutralAssembly =
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = InfoTrackSeo.Repositories
-build_property.ProjectDir = C:\Users\wayne\Source\Repos\InfoTrack\InfoTrackSeo\InfoTrackSeo.Repositories\
+build_property.ProjectDir = C:\Users\wayne\source\repos\IT\infotrackscraper\InfoTrackSeo\InfoTrackSeo.Repositories\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
