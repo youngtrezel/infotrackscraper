@@ -1,0 +1,77 @@
+<div class="jumbotron trend-top">
+    <div class="container">
+        <div class="row">
+            <div class="col-12 trend-header">
+                <h1>Search Engine Position Trend </h1>
+                <h3>Selected period search history</h3>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="container trend-body">
+    <div class="row display-results">
+        <div class="col-12">
+            <div class="row filter-top">
+                <div class=" col-12 filter-panel">
+                    <div class="row">
+                        <form (ngSubmit)="onSubmit()">
+                            <div class="col-12 filter-control-group double date-picker">
+                                <label class="label-double">Select date range</label>
+                                <div class="row">
+                                    <div class="col-6 date-panel">
+                                        <button class="date-button" (click)="d1.toggle()" type="button">START DATE </button>
+                                        <input type="text" class="date-display" placeholder="dd-mm-yyyy" name="dpStart"
+                                            [(ngModel)]="filterByDate.startDate" ngbDatepicker #d1="ngbDatepicker"
+                                            [maxDate]="presentDay">
+                                        <span class="fa fa-calendar"></span>
+                                    </div>
+                                    <div class="col-6 date-panel">
+                                        <button class="date-button" (click)="d2.toggle()" type="button">END DATE</button>
+                                        <input type="text" class="date-display" placeholder="dd-mm-yyyy" name="dpEnd"
+                                            [(ngModel)]="filterByDate.endDate" ngbDatepicker #d2="ngbDatepicker"
+                                            [maxDate]="presentDay">
+                                        <span class="fa fa-calendar"></span>
+                                    </div>
+                                </div>
+
+
+
+
+                            </div>
+                            <div class="col-12 filter-button-panel">
+                                <button type="submit">FILTER</button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+
+                <div class="col-12 results-panel">
+                    <ng-container *ngIf="loading">
+                        <h1>Loading... </h1>
+                    </ng-container>
+                    <table *ngIf="!loading">
+                        <thead>
+                            <tr class="table-row">
+                                <th style="width:270px;">Search Date</th>
+                                <th style="width: 130px;">Search Engine</th>
+                                <th style="width: 190px;">Word Searched For</th>
+                                <th style="width: 190px;">URL Searched For</th>
+                                <th>Position</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr *ngFor="let trend of filteredPageData">
+                                <td style="width:270px; ">{{ trend.searchDate | date:'medium' }}</td>
+                                <td style="width: 130px;">{{ trend.searchTool }}</td>
+                                <td style="width: 190px;">{{ trend.wordToSearch }}</td>
+                                <td style="width: 190px;">{{ trend.urlToFind}}</td>
+                                <td>{{ trend.positionList.join(', ') }}</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

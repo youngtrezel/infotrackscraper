@@ -1,0 +1,15 @@
+C:\InfoTrack\InfoTrackSeo\InfoTrackSeo.Core\bin\Debug\net8.0\InfoTrackSeo.Core.deps.json
+C:\InfoTrack\InfoTrackSeo\InfoTrackSeo.Core\bin\Debug\net8.0\InfoTrackSeo.Core.dll
+C:\InfoTrack\InfoTrackSeo\InfoTrackSeo.Core\bin\Debug\net8.0\InfoTrackSeo.Core.pdb
+C:\InfoTrack\InfoTrackSeo\InfoTrackSeo.Core\bin\Debug\net8.0\InfoTrackSeo.Common.dll
+C:\InfoTrack\InfoTrackSeo\InfoTrackSeo.Core\bin\Debug\net8.0\InfoTrackSeo.Common.pdb
+C:\InfoTrack\InfoTrackSeo\InfoTrackSeo.Core\obj\Debug\net8.0\InfoTrackSeo.Core.csproj.AssemblyReference.cache
+C:\InfoTrack\InfoTrackSeo\InfoTrackSeo.Core\obj\Debug\net8.0\InfoTrackSeo.Core.GeneratedMSBuildEditorConfig.editorconfig
+C:\InfoTrack\InfoTrackSeo\InfoTrackSeo.Core\obj\Debug\net8.0\InfoTrackSeo.Core.AssemblyInfoInputs.cache
+C:\InfoTrack\InfoTrackSeo\InfoTrackSeo.Core\obj\Debug\net8.0\InfoTrackSeo.Core.AssemblyInfo.cs
+C:\InfoTrack\InfoTrackSeo\InfoTrackSeo.Core\obj\Debug\net8.0\InfoTrackSeo.Core.csproj.CoreCompileInputs.cache
+C:\InfoTrack\InfoTrackSeo\InfoTrackSeo.Core\obj\Debug\net8.0\InfoTrac.D5024831.Up2Date
+C:\InfoTrack\InfoTrackSeo\InfoTrackSeo.Core\obj\Debug\net8.0\InfoTrackSeo.Core.dll
+C:\InfoTrack\InfoTrackSeo\InfoTrackSeo.Core\obj\Debug\net8.0\refint\InfoTrackSeo.Core.dll
+C:\InfoTrack\InfoTrackSeo\InfoTrackSeo.Core\obj\Debug\net8.0\InfoTrackSeo.Core.pdb
+C:\InfoTrack\InfoTrackSeo\InfoTrackSeo.Core\obj\Debug\net8.0\ref\InfoTrackSeo.Core.dll

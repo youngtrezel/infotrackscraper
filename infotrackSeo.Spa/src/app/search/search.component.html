@@ -1,0 +1,62 @@
+<div class="jumbotron search-top">
+  <div class="container for-search">
+    <div class="row">
+      <div class="col-12">
+        <form [formGroup]="profileForm" (ngSubmit)="onSubmit()">
+  
+          <div class="row">
+  
+            <div class="col-6">
+              <label class="label-standard" for="word-to-search">Search Term</label>
+              <input class="input-standard" type="text" id="word-to-search" formControlName="WordToSearch">
+              <div class="error-message"
+                *ngIf="profileForm.get('WordToSearch')?.errors?.['profileForm'] && profileForm.get('WordToSearch')?.touched">
+                A search term is required.
+              </div>
+            </div>
+            <div class="col-6">
+              <label class="label-standard" for="url-to-find">Word to Match: </label>
+              <input class="input-standard" id="url-to-find" type="text" formControlName="UrlToFind">
+              <div class="error-message"
+                *ngIf="profileForm.get('UrlToFind')?.errors?.['profileForm'] && profileForm.get('UrlToFind')?.touched">
+                A search term is required.
+              </div>
+            </div>
+  
+          </div>
+          <div class="row">
+            <div class="col-6 search-engine">
+              <label class="label-standard" for="search-tool">Search Engine </label>
+              <select class="input-standard" formControlName="SearchTool">
+                <option *ngFor="let searchTool of searchTools " [value]="searchTool">{{ searchTool }}</option>
+              </select>
+            </div>
+            <div class="col-6 search-engine-btn">
+              <div class="label-standard">Please complete all fields to submit.</div>
+              <button class="search-button" type="submit" [disabled]="profileForm.invalid">Submit</button>
+            </div>
+          </div>
+        </form>
+
+        
+  
+        <ng-container *ngIf="result && result.positionList.length > 0 && !loading">
+          <div class="container ">
+            <label class="label-standard">Search results </label>
+            <div class="label-standard big" *ngFor="let number of result.positionList">{{number}}</div>
+          </div>
+        </ng-container>
+  
+        <ng-container *ngIf="loading">
+          <div class="col-12 search-running">
+            <h1>Search running..</h1>
+          </div>
+        </ng-container>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+

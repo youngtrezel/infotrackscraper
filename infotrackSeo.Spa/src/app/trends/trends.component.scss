@@ -1,0 +1,150 @@
+.trend-top {
+    background: #61a5c6;
+    height: 150px;
+
+    .trend-header {
+
+        h1,
+        h3 {
+            color: white;
+            text-align: center;
+        }
+
+        h1 {
+            margin: 3px auto;
+        }
+
+        h3 {
+            margin-top: 0;
+            text-transform: uppercase;
+
+        }
+    }
+}
+
+.trend-body {
+
+    .display-results {
+        min-height: 700px;
+    }
+}
+
+.filter-top {
+    padding-top: 30px
+}
+
+.filter-panel {
+
+    background: #e9a83b;
+    border-radius: 4px;
+
+    .filter-control-group {
+        height: 184px;
+        
+    }
+
+    .filter-control-group.double {
+        height: 433px;
+        
+    }
+
+    .date-picker {
+        background: rgba(255, 255, 255, 0.2509803922);
+        min-height: 243px;
+        margin-top: 20px;
+    }
+
+    .filter-button-panel {
+        height: 50px;
+        text-align: center;
+
+        button {
+            width: 300px;
+            height: 50px;
+            font-size: 30px;
+            color:#ffffff;
+            background:#61a5c6;
+            border-radius: 4px;
+            border: white solid;
+        }
+    }
+}
+
+.label-standard {
+    width: 80%;
+    color: white;
+    font-size: 20px;
+    text-align: center;
+    height: 32px;
+    display: block;
+    margin: 5px auto;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.label-double {
+    width: 80%;
+    color: white;
+    font-size: 20px;
+    text-align: center;
+    height: 32px;
+    display: block;
+    margin: 5px auto;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.input-standard {
+    margin: 5px auto;
+    width: 300px;
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+    text-align: center;
+    display: block;
+    height: 40px;
+    border:none;
+}
+
+.results-panel {
+    min-height: 500px;
+    background: rgb(198 198 211 / 15%);
+
+    h1 {
+        text-align: center;
+        color: rgb(175 179 160);
+    }
+
+    td {
+        text-align: center;
+    }
+    
+}
+
+.date-panel {
+    text-align: center;
+
+    button.date-button {
+        width: 300px;
+    height: 50px;
+    font-size: 30px;
+    color: #ffffff;
+    background: #61a5c6;
+    border-radius: 4px;
+    border: white solid;
+    }
+
+    input.date-display{
+        margin: 5px auto;
+        width: 300px;
+        color: rgb(0, 0, 0);
+        font-size: 20px;
+        text-align: center;
+        display: block;
+        height: 40px;
+        border:none;
+    }
+}
+
+.ngb-dp-content {
+    margin: 0 auto;
+}

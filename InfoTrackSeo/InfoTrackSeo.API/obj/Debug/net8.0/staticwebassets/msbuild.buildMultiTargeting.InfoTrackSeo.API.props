@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\InfoTrackSeo.API.props" />
+</Project>

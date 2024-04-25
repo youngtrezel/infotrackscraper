@@ -1,0 +1,44 @@
+
+
+.header-jumbo {
+    background: #61a5c6;
+
+}
+
+.header {
+    height: 150px;
+    color: rgb(255, 255, 255);
+    padding-top:20px;
+}
+
+
+.boxed {
+
+    .floating-panel {
+        background: white;
+        height: 100px;
+        border-radius: 5px;
+
+        .row {
+            position: relative;
+            height: 100%;
+
+            .logo {
+                
+                height: 80px; 
+                
+                img {
+                    margin-top:5px;
+                }
+            }
+
+            .switch-buttons {
+          
+                height: 80px;
+
+            }
+        }
+
+
+    }
+}
